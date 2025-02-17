@@ -11,10 +11,10 @@ int main() {
     t_Persona compagnoDiBanco;
 
     printf("Inserisci il nome del tuo compagno di banco: ");
-    scanf ("%s", &compagnoDiBanco.Nome);
+    scanf ("%s", compagnoDiBanco.Nome);
 
     printf("Inserisci il cognome del tuo compagno di banco: ");
-    scanf ("%s",&compagnoDiBanco.Cognome);
+    scanf ("%s", compagnoDiBanco.Cognome);
 
     printf("Inserisci l'eta' del tuo compagno di banco: ");
     scanf("%d", &compagnoDiBanco.Eta);
